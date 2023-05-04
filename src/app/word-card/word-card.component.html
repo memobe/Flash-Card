@@ -1,4 +1,12 @@
-<div>
-    <span>{{word.name}}</span>
-    <p>{{word.sentence}}</p>
-</div>
+<mat-card>
+    <mat-card-actions>
+        <button >LIKE</button>
+        <button>SHARE</button>
+    </mat-card-actions>
+    <mat-card-header>
+        <mat-card-title>{{word.name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>{{word.sentence}}</p>
+    </mat-card-content>
+</mat-card>
