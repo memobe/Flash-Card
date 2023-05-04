@@ -1,5 +1,2 @@
-<section>
-    <div class="max-w-3xl mx-auto">
-        <flash-card-word-card *ngFor="let word of words" [word]="word"></flash-card-word-card>
-    </div>
-</section>
+<flash-card-word-card *ngFor="let word of words" [word]="word"></flash-card-word-card>
+<a mat-icon-button [routerLink]="'/word-form'">+</a>

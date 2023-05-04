@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+    <mat-form-field class="w-full" appearance="fill">
+        <mat-label>Word</mat-label>
+        <input formControlName="name" matInput placeholder="Placeholder">
+    </mat-form-field>
+    <mat-form-field class="w-full" appearance="fill">
+        <mat-label>Sentence</mat-label>
+        <textarea formControlName="sentence" matInput placeholder="Write sentence with word..."></textarea>
+    </mat-form-field>
+    <button class="w-full" mat-raised-button color="primary" type="submit">Primary</button>
+</form>
