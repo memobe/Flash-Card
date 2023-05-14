@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@flash-card/fc-model": ["fc-model/src/index.ts"],
-      "@flash-card/libs/fc-model": ["libs/fc-model/src/index.ts"]
+      "@flash-card/libs/fc-model": ["libs/fc-model/src/index.ts"],
+      "@flash-card/libs/ui/swiper": ["libs/libs/ui/swiper/src/index.ts"],
+      "@flash-card/ui/swiper": ["libs/ui/swiper/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
