@@ -1,2 +1,6 @@
-<flash-card-word-card *ngFor="let word of words" [word]="word"></flash-card-word-card>
+<swiper-container SwiperElement [config]="swiperConfig">
+    <swiper-slide *ngFor="let word of words">
+        <flash-card-word-card [word]="word"></flash-card-word-card>
+    </swiper-slide>
+</swiper-container>
 <a mat-icon-button [routerLink]="'/word-form'">+</a>
